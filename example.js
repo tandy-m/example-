@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 // const courseTopic = "JavaScript essentials";
 // const courseTopicLength = courseTopic.length;
@@ -87,12 +87,19 @@
 // }
 // makeMessage("Radar", 6150);
 // makeMessage("Scanner", 3500);
-function calculateTotalPrice(orderedQuantity, pricePerItem) {
-  const calculateTotalPrice = orderedQuantity * pricePerItem;
-  return calculateTotalPrice;
+// function calculateTotalPrice(orderedQuantity, pricePerItem) {
+//   const calculateTotalPrice = orderedQuantity * pricePerItem;
+//   return calculateTotalPrice;
+// }
+// calculateTotalPrice(5, 100);
+// calculateTotalPrice(8, 60);
+// calculateTotalPrice(3, 400);
+// calculateTotalPrice(1, 3500);
+// calculateTotalPrice(12, 70);
+
+function checkAge(age) {
+  if (age >= 18) {
+    return "You are an adult";
+  }
 }
-calculateTotalPrice(5, 100);
-calculateTotalPrice(8, 60);
-calculateTotalPrice(3, 400);
-calculateTotalPrice(1, 3500);
-calculateTotalPrice(12, 70);
+checkAge(20);
